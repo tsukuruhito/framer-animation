@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .container {
+        @apply w-full md:max-w-4xl md:w-screen mx-auto px-4 box-border;
+    }
+    .heading-primary {
+        @apply text-4xl text-primary font-bold mb-4 flex items-center after:content-[""] after:block after:w-10 after:h-1 after:bg-secondary after:ml-4;
+    }
+    .heading-secondary {
+        @apply text-2xl text-secondary font-bold mb-2;
+    }
+    .carousell_btn {
+        @apply absolute top-1/2 -translate-y-1/2 text-6xl cursor-pointer z-10 w-12 h-12 bg-tertiary flex items-center justify-center rounded-full align-middle;
+    }
+}
+.triangle{
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+}
