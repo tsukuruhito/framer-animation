@@ -8,7 +8,7 @@ import Wave from "../src/components/Loadings/Wave";
 
 const Mini: NextPage = () => {
   return (
-    <Layout isHeader={true} isFooter={true} title={"mini"} isShow={true}>
+    <Layout isHeader={true} isFooter={true} title={"Mini | FramerAnimation"} isShow={true}>
       <div className="py-28 px-4 max-w-5xl mx-auto">
         <h2 className="heading-primary">Lading&nbsp;Animations</h2>
         <div className="grid grid-cols-3 justify-items-center items-center gap-16 p-4">

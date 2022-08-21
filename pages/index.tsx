@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const [isShow, setIsShow] = useState(false);
   return (
     <Layout
-      title="frameranimation"
+      title="FramerAnimation"
       isHeader={true}
       isFooter={true}
       isShow={isShow}
