@@ -24,7 +24,7 @@ const Header = (props: PropsType) => {
       className={`fixed z-30 w-full box-border flex justify-between items-center font-mono py-2 uppercase flex-col md:flex-row bg-secondary drop-shadow-md transition-all ease-in-out duration-500 
         ${isShow ? "opaciry-1" : "opacity-0"}`}
     >
-      <h1 className="flex items-center" onClick={() => handeSceneChange("/")}>
+      <h1 className="flex items-center cursor-pointer" onClick={() => handeSceneChange("/")}>
         <Image
           src="/fav.png"
           alt="logo"
@@ -41,7 +41,7 @@ const Header = (props: PropsType) => {
         <ul>
           <li
             onClick={() => handeSceneChange("/mini")}
-            className="text-white px-4 py-2 mx-2 box-border relative 
+            className="text-white px-4 py-2 mx-2 box-border relative cursor-pointer
               hover:before:w-full hover:before:h-px hover:before:absolute hover:before:bg-white hover:before:bottom-0 hover:before:left-0
               before:w-0 before:h-px :before:absolute before:bg-white before:bottom-0before:left-0 before:transition-all before:ease-in-out before:duration-200
             "
