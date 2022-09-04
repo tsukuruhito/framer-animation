@@ -21,21 +21,18 @@ const Header = (props: PropsType) => {
 
   return (
     <header
-      className={`fixed z-30 w-full box-border flex justify-between items-center font-mono py-2 uppercase flex-col md:flex-row bg-secondary drop-shadow-md transition-all ease-in-out duration-500 
-        ${isShow ? "opaciry-1" : "opacity-0"}`}
+      className={`fixed z-30 w-full box-border flex justify-between items-center font-mono py-2 uppercase md:flex-row bg-secondary drop-shadow-md transition-all ease-in-out duration-500 
+        ${isShow ? "opaciry-1 visible" : "opacity-0 invisible"}`}
     >
       <h1 className="flex items-center cursor-pointer" onClick={() => handeSceneChange("/")}>
         <Image
           src="/fav.png"
           alt="logo"
           width={100}
-          height={50}
+          height={40}
           objectFit="contain"
           objectPosition="center"
         />
-        <span className="text-2xl font-bold tracking-tight text-white">
-          ts port
-        </span>
       </h1>
       <nav>
         <ul>
