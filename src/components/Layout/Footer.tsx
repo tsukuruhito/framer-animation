@@ -4,9 +4,9 @@ const Footer = () => {
     <footer className="footer footer-center p-4 bg-base-300 text-base-content bg-primary text-white text-center">
       <div>
         <p>
-          Copyright © {year} -{" "}
+          Copyright © {year} -
           <span className="inline-block">
-            All right reserved by Tsukuruhito
+            All right reserved by Tsuku
           </span>
         </p>
       </div>
